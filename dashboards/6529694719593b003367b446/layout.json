@@ -1,0 +1,71 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 54,
+                                        "maxHeight": 1291,
+                                        "maxWidth": 2048,
+                                        "minHeight": 68,
+                                        "minWidth": 128,
+                                        "widgetid": "65296cc519593b003367b448"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 321,
+                                "stretchable": false,
+                                "width": 50
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 54,
+                                        "maxHeight": 1291,
+                                        "maxWidth": 2048,
+                                        "minHeight": 68,
+                                        "minWidth": 128,
+                                        "widgetid": "652971a119593b003367b472"
+                                    }
+                                ],
+                                "index": 1,
+                                "pxlWidth": 321,
+                                "stretchable": false,
+                                "width": 50
+                            }
+                        ]
+                    }
+                ],
+                "index": 0,
+                "pxlWidth": 642,
+                "width": 100
+            }
+        ],
+        "container": {
+            "sizzle1697475670344": {
+                "undefined": {
+                    "legend": [
+                        65,
+                        0,
+                        false
+                    ],
+                    "parentNode": [
+                        127.13763399197705,
+                        23,
+                        true
+                    ]
+                }
+            }
+        },
+        "instanceid": "770A0-7975-2C",
+        "type": "columnar"
+    },
+    "previewLayout": [
+    ]
+}

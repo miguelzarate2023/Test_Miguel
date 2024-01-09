@@ -1,0 +1,370 @@
+{
+    "_dataSourcePermission": "edit",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "6529694719593b003367b446",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "drilledDashboardDisplay": {
+    },
+    "jasperReportsSettings": {
+    },
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                ],
+                "name": "Items"
+            },
+            {
+                "items": [
+                    {
+                        "PanelName": "MaxDate",
+                        "disabled": false,
+                        "format": {
+                            "mask": {
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "hierarchies": [
+                        ],
+                        "instanceid": "7A28E-AC25-55",
+                        "jaql": {
+                            "context": {
+                                "[EA095-997]": {
+                                    "agg": "count",
+                                    "column": "Date",
+                                    "datatype": "datetime",
+                                    "dim": "[Commerce.Date (Calendar)]",
+                                    "level": "days",
+                                    "merged": true,
+                                    "table": "Commerce",
+                                    "title": "# of unique Days in Date"
+                                }
+                            },
+                            "formula": "[EA095-997]",
+                            "pv": {
+                                "Aggregation>Count": 2,
+                                "Visible in View>Yes": 2
+                            },
+                            "title": "MaxDate",
+                            "type": "measure"
+                        }
+                    }
+                ],
+                "name": "Values"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "652971a119593b003367b472",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillTarget": "dummy",
+        "selector": true,
+        "title": false,
+        "triggersDomready": true
+    },
+    "query": {
+        "datasource": {
+            "address": "LocalHost",
+            "database": "aSampleIAAaECommerce",
+            "fullname": "localhost/Sample ECommerce",
+            "id": "localhost_aSampleIAAaECommerce",
+            "live": false,
+            "title": "Sample ECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "m2mThresholdFlag": 0,
+        "metadata": [
+            {
+                "PanelName": "MaxDate",
+                "disabled": false,
+                "format": {
+                    "mask": {
+                        "decimals": "auto",
+                        "isdefault": true,
+                        "separated": true,
+                        "type": "number"
+                    }
+                },
+                "handlers": [
+                    {
+                    }
+                ],
+                "hierarchies": [
+                ],
+                "instanceid": "7A28E-AC25-55",
+                "jaql": {
+                    "context": {
+                        "[EA095-997]": {
+                            "agg": "count",
+                            "column": "Date",
+                            "datatype": "datetime",
+                            "dim": "[Commerce.Date (Calendar)]",
+                            "level": "days",
+                            "merged": true,
+                            "table": "Commerce",
+                            "title": "# of unique Days in Date"
+                        }
+                    },
+                    "formula": "[EA095-997]",
+                    "pv": {
+                        "Aggregation>Count": 2,
+                        "Visible in View>Yes": 2
+                    },
+                    "title": "MaxDate",
+                    "type": "measure"
+                }
+            }
+        ]
+    },
+    "realTimeRefreshing": false,
+    "script": "./script.js",
+    "style": {
+        "currentCard": {
+            "actions": [
+            ],
+            "body": [
+                {
+                    "items": [
+                        {
+                            "columns": [
+                                {
+                                    "items": [
+                                        {
+                                            "color": "black",
+                                            "style": {
+                                                "background": "white",
+                                                "font-size": "20px",
+                                                "font-weight": "bold",
+                                                "text-align": "center"
+                                            },
+                                            "text": "Max Date:",
+                                            "type": "TextBlock"
+                                        },
+                                        {
+                                            "color": "white",
+                                            "style": {
+                                                "background": "white",
+                                                "color": "red",
+                                                "font-size": "20px",
+                                                "font-weight": "bold",
+                                                "text-align": "center"
+                                            },
+                                            "text": "<p id='datenum'></p><script type='text/javascript' src='https://momentjs.com/downloads/moment.min.js'></script><script>var d = moment('{panel:MaxDate}', 'YYYYMMDD').format('M/DD/YYYY'); document.getElementById('datenum').innerHTML = d;</script>",
+                                            "type": "TextBlock"
+                                        }
+                                    ],
+                                    "type": "Column"
+                                }
+                            ],
+                            "type": "ColumnSet"
+                        }
+                    ],
+                    "type": "Container"
+                }
+            ],
+            "script": "",
+            "showCarousel": true,
+            "style": "",
+            "title": "",
+            "titleStyle": [
+                {
+                    "display": "none"
+                }
+            ]
+        },
+        "currentCardName": "MaxDate widget",
+        "currentConfig": {
+            "actions": {
+                "actionAlignment": "center",
+                "actionsOrientation": "horizontal",
+                "backgroundColor": "white",
+                "buttonSpacing": 20,
+                "color": "",
+                "maxActions": 5,
+                "showCard": {
+                    "actionMode": "inline",
+                    "inlineTopMargin": 16,
+                    "style": "default"
+                },
+                "spacing": "extraLarge"
+            },
+            "containerStyles": {
+                "default": {
+                    "backgroundColor": "#ffcb05",
+                    "foregroundColors": {
+                        "accent": {
+                            "normal": "#2E89FC"
+                        },
+                        "attention": {
+                            "normal": "#cc3300"
+                        },
+                        "black": {
+                            "normal": "#000000"
+                        },
+                        "default": {
+                            "normal": "#000000"
+                        },
+                        "good": {
+                            "normal": "#54a254"
+                        },
+                        "green": {
+                            "normal": "#54a254"
+                        },
+                        "grey": {
+                            "normal": "#5C6372"
+                        },
+                        "lightGreen": {
+                            "normal": "#3ADCCA"
+                        },
+                        "orange": {
+                            "normal": "#f2B900"
+                        },
+                        "red": {
+                            "normal": "#dd1111"
+                        },
+                        "warning": {
+                            "normal": "#e69500"
+                        },
+                        "white": {
+                            "normal": "#ffffff"
+                        },
+                        "yellow": {
+                            "normal": "#ffcb05"
+                        }
+                    }
+                }
+            },
+            "factSet": {
+                "spacing": 20,
+                "title": {
+                    "color": "default",
+                    "size": "default",
+                    "warp": true,
+                    "weight": "bold"
+                },
+                "value": {
+                    "color": "default",
+                    "size": "default",
+                    "warp": true,
+                    "weight": "default"
+                }
+            },
+            "fontFamily": "Open Sans",
+            "fontSizes": {
+                "default": 14,
+                "extraLarge": 32,
+                "large": 50,
+                "medium": 20,
+                "small": 16
+            },
+            "fontWeights": {
+                "bold": 1000,
+                "default": 500,
+                "light": 100
+            },
+            "height": 54,
+            "imageBaseUrl": "",
+            "imageSet": {
+                "imageSize": "medium",
+                "maxImageHeight": 100
+            },
+            "imageSizes": {
+                "default": 40,
+                "large": 160,
+                "medium": 80,
+                "small": 40
+            },
+            "separator": {
+                "lineColor": "#eeeeee",
+                "lineThickness": 1
+            },
+            "spacing": {
+                "default": 5,
+                "extraLarge": 40,
+                "large": 20,
+                "medium": 60,
+                "padding": 0,
+                "small": 20
+            },
+            "supportsInteractivity": true
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        }
+    },
+    "subtype": "BloX",
+    "title": "Duplicate Blox NOT Displaying Date on 2nd Line",
+    "type": "BloX"
+}

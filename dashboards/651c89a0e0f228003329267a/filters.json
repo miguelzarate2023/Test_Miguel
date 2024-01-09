@@ -1,0 +1,102 @@
+{
+    "filters": [
+        {
+            "disabled": false,
+            "isCascading": true,
+            "levels": [
+                {
+                    "collapsed": true,
+                    "column": "FacilityID",
+                    "datasource": {
+                        "address": "LocalHost",
+                        "database": "aFacilities",
+                        "fullname": "localhost/Facilities",
+                        "id": "localhost_aFacilities",
+                        "live": false,
+                        "title": "Facilities"
+                    },
+                    "datatype": "numeric",
+                    "dim": "[Facilities.FacilityID]",
+                    "filter": {
+                        "explicit": true,
+                        "members": [
+                            "30"
+                        ],
+                        "multiSelection": true
+                    },
+                    "firstday": "mon",
+                    "instanceid": "E7781-6D6C-89",
+                    "isDashboardFilter": true,
+                    "locale": "en-us",
+                    "panel": "scope",
+                    "table": "Facilities",
+                    "title": "FacilityID"
+                },
+                {
+                    "collapsed": true,
+                    "column": "SnapShot Date",
+                    "datasource": {
+                        "address": "LocalHost",
+                        "database": "aFacilities",
+                        "fullname": "localhost/Facilities",
+                        "id": "localhost_aFacilities",
+                        "live": false,
+                        "title": "Facilities"
+                    },
+                    "datatype": "datetime",
+                    "dim": "[Facilities.SnapShot Date (Calendar)]",
+                    "filter": {
+                        "explicit": true,
+                        "members": [
+                            "2023-06-24T00:00:00"
+                        ],
+                        "multiSelection": true
+                    },
+                    "firstday": "mon",
+                    "instanceid": "AF5DC-7AA0-35",
+                    "isDashboardFilter": true,
+                    "level": "days",
+                    "locale": "en-us",
+                    "merged": true,
+                    "table": "Facilities",
+                    "title": "Months in SnapShot Date"
+                }
+            ],
+            "model": {
+                "__store": [
+                    "[Facilities.FacilityID]",
+                    "[Facilities.SnapShot Date (Calendar)]"
+                ],
+                "instanceid": "1B883-92CB-47"
+            }
+        },
+        {
+            "disabled": true,
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "Amount",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aFacilities",
+                    "fullname": "localhost/Facilities",
+                    "id": "localhost_aFacilities",
+                    "live": false,
+                    "title": "Facilities"
+                },
+                "datatype": "numeric",
+                "dim": "[Facilities.Amount]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "firstday": "mon",
+                "isDashboardFilter": true,
+                "locale": "en-us",
+                "table": "Facilities",
+                "title": "Amount"
+            }
+        }
+    ]
+}

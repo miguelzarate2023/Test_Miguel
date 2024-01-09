@@ -1,0 +1,41 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "BRAND",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "BRAND",
+            "oid": "b3cdadf0-3a14-4176-bbe6-9cf4a25762f7",
+            "precision": 100,
+            "scale": 0,
+            "size": 100,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "BRAND_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "BRAND_ID",
+            "oid": "bf0433d3-2ffb-48bb-b1cb-63bfd966e2e5",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        }
+    ],
+    "dataset": "f4fd1c0a-d195-4524-b7bd-fd335a1de3e5",
+    "hidden": false,
+    "id": "BRAND",
+    "isMaterialized": false,
+    "name": "BRAND",
+    "oid": "cc7534b3-1e74-4fdf-aeae-2dbfd4011bc3",
+    "schemaName": "PUBLIC",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

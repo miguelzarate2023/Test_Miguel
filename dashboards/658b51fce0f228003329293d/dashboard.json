@@ -1,0 +1,57 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Snowflake_ecommerce",
+        "id": "live:Snowflake_ecommerce",
+        "live": true,
+        "title": "Snowflake_ecommerce"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "658b51fce0f228003329293d",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "658b51fce0f228003329293d"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": false,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "0 0 0 * * *",
+        "startAt": "2024-01-05",
+        "timezone": -660,
+        "type": "daily",
+        "tzName": "Australia/Sydney"
+    },
+    "title": "Dynamic Blox Filter - Live - Copy",
+    "widgets": [
+        "./widgets/658b51fce0f228003329293e/widget.json",
+        "./widgets/658b51fce0f228003329293f/widget.json"
+    ]
+}

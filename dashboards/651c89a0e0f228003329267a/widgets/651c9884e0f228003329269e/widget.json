@@ -1,0 +1,441 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "651c89a0e0f228003329267a",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aFacilities",
+        "fullname": "localhost/Facilities",
+        "id": "localhost_aFacilities",
+        "live": false,
+        "title": "Facilities"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Facilities.SnapShot Date (Calendar)]_years",
+                            "index": 0
+                        },
+                        "format": {
+                            "mask": {
+                                "dateAndTime": "MM/dd/y HH:mm",
+                                "days": "shortDate",
+                                "isdefault": true,
+                                "minutes": "HH:mm",
+                                "months": "MM/yyyy",
+                                "quarters": "yyyy Q",
+                                "weeks": "ww yyyy",
+                                "years": "yyyy"
+                            }
+                        },
+                        "hierarchies": [
+                            "calendar",
+                            "calendar - weeks"
+                        ],
+                        "instanceid": "6AD7A-9EAC-A4",
+                        "jaql": {
+                            "column": "SnapShot Date",
+                            "datatype": "datetime",
+                            "dim": "[Facilities.SnapShot Date (Calendar)]",
+                            "level": "days",
+                            "merged": true,
+                            "table": "Facilities",
+                            "title": "Days in SnapShot Date"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[Facilities.Location]",
+                            "index": 1
+                        },
+                        "instanceid": "DDADE-0AEF-16",
+                        "jaql": {
+                            "column": "Location",
+                            "datatype": "text",
+                            "dim": "[Facilities.Location]",
+                            "merged": true,
+                            "table": "Facilities",
+                            "title": "Location"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[Facilities.FacilityID]_sum",
+                            "index": 2
+                        },
+                        "instanceid": "70FCF-96D6-EC",
+                        "jaql": {
+                            "column": "FacilityID",
+                            "datatype": "numeric",
+                            "dim": "[Facilities.FacilityID]",
+                            "table": "Facilities",
+                            "title": "FacilityID"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Facilities.Amount]_sum",
+                            "index": 3
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": false,
+                                    "k": false,
+                                    "m": false,
+                                    "t": false
+                                },
+                                "currency": {
+                                    "position": "pre",
+                                    "symbol": "$"
+                                },
+                                "decimals": "auto"
+                            }
+                        },
+                        "instanceid": "8BFFB-740C-A4",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Amount",
+                            "datatype": "numeric",
+                            "dim": "[Facilities.Amount]",
+                            "pv": {
+                                "Aggregation>Count": 2,
+                                "Visible in View>Yes": 2
+                            },
+                            "table": "Facilities",
+                            "title": "Total Amount"
+                        },
+                        "panel": "measures"
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "651c9884e0f228003329269e",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "query": {
+        "datasource": {
+            "address": "LocalHost",
+            "database": "aFacilities",
+            "fullname": "localhost/Facilities",
+            "id": "localhost_aFacilities",
+            "live": false,
+            "title": "Facilities"
+        },
+        "format": "pivot",
+        "grandTotals": {
+            "title": "Grand Total"
+        },
+        "m2mThresholdFlag": 0,
+        "metadata": [
+            {
+                "field": {
+                    "id": "[Facilities.SnapShot Date (Calendar)]_years",
+                    "index": 0
+                },
+                "format": {
+                    "mask": {
+                        "dateAndTime": "MM/dd/y HH:mm",
+                        "days": "shortDate",
+                        "isdefault": true,
+                        "minutes": "HH:mm",
+                        "months": "MM/yyyy",
+                        "quarters": "yyyy Q",
+                        "weeks": "ww yyyy",
+                        "years": "yyyy"
+                    }
+                },
+                "handlers": [
+                    {
+                    }
+                ],
+                "hierarchies": [
+                    "calendar",
+                    "calendar - weeks"
+                ],
+                "instanceid": "6AD7A-9EAC-A4",
+                "jaql": {
+                    "column": "SnapShot Date",
+                    "datatype": "datetime",
+                    "dim": "[Facilities.SnapShot Date (Calendar)]",
+                    "level": "days",
+                    "merged": true,
+                    "table": "Facilities",
+                    "title": "Days in SnapShot Date"
+                },
+                "panel": "rows"
+            },
+            {
+                "field": {
+                    "id": "[Facilities.Location]",
+                    "index": 1
+                },
+                "handlers": [
+                ],
+                "instanceid": "DDADE-0AEF-16",
+                "jaql": {
+                    "column": "Location",
+                    "datatype": "text",
+                    "dim": "[Facilities.Location]",
+                    "merged": true,
+                    "table": "Facilities",
+                    "title": "Location"
+                },
+                "panel": "rows"
+            },
+            {
+                "field": {
+                    "id": "[Facilities.FacilityID]_sum",
+                    "index": 2
+                },
+                "handlers": [
+                ],
+                "instanceid": "70FCF-96D6-EC",
+                "jaql": {
+                    "column": "FacilityID",
+                    "datatype": "numeric",
+                    "dim": "[Facilities.FacilityID]",
+                    "table": "Facilities",
+                    "title": "FacilityID"
+                },
+                "panel": "rows"
+            },
+            {
+                "field": {
+                    "id": "[Facilities.Amount]_sum",
+                    "index": 3
+                },
+                "format": {
+                    "color": {
+                        "color": "transparent",
+                        "type": "color"
+                    },
+                    "mask": {
+                        "abbreviations": {
+                            "b": false,
+                            "k": false,
+                            "m": false,
+                            "t": false
+                        },
+                        "currency": {
+                            "position": "pre",
+                            "symbol": "$"
+                        },
+                        "decimals": "auto"
+                    }
+                },
+                "handlers": [
+                    {
+                    },
+                    {
+                    }
+                ],
+                "instanceid": "8BFFB-740C-A4",
+                "jaql": {
+                    "agg": "sum",
+                    "column": "Amount",
+                    "datatype": "numeric",
+                    "dim": "[Facilities.Amount]",
+                    "pv": {
+                        "Aggregation>Count": 2,
+                        "Visible in View>Yes": 2
+                    },
+                    "table": "Facilities",
+                    "title": "Total Amount"
+                },
+                "panel": "measures"
+            },
+            {
+                "disabled": false,
+                "instanceid": "E7781-6D6C-89",
+                "isCascading": true,
+                "jaql": {
+                    "collapsed": true,
+                    "column": "FacilityID",
+                    "datasource": {
+                        "address": "LocalHost",
+                        "database": "aFacilities",
+                        "fullname": "localhost/Facilities",
+                        "id": "localhost_aFacilities",
+                        "live": false,
+                        "title": "Facilities"
+                    },
+                    "datatype": "numeric",
+                    "dim": "[Facilities.FacilityID]",
+                    "filter": {
+                        "explicit": true,
+                        "members": [
+                            "30"
+                        ],
+                        "multiSelection": true
+                    },
+                    "firstday": "mon",
+                    "instanceid": "E7781-6D6C-89",
+                    "isDashboardFilter": true,
+                    "locale": "en-us",
+                    "panel": "scope",
+                    "table": "Facilities",
+                    "title": "FacilityID"
+                },
+                "panel": "scope"
+            },
+            {
+                "disabled": false,
+                "instanceid": "E7781-6D6C-89",
+                "isCascading": true,
+                "jaql": {
+                    "collapsed": true,
+                    "column": "SnapShot Date",
+                    "datasource": {
+                        "address": "LocalHost",
+                        "database": "aFacilities",
+                        "fullname": "localhost/Facilities",
+                        "id": "localhost_aFacilities",
+                        "live": false,
+                        "title": "Facilities"
+                    },
+                    "datatype": "datetime",
+                    "dim": "[Facilities.SnapShot Date (Calendar)]",
+                    "filter": {
+                        "explicit": true,
+                        "members": [
+                            "2023-06-24T00:00:00"
+                        ],
+                        "multiSelection": true
+                    },
+                    "firstday": "mon",
+                    "instanceid": "AF5DC-7AA0-35",
+                    "isDashboardFilter": true,
+                    "level": "days",
+                    "locale": "en-us",
+                    "merged": true,
+                    "table": "Facilities",
+                    "title": "Months in SnapShot Date"
+                },
+                "panel": "scope"
+            }
+        ]
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "location",
+                    "plural": "Location",
+                    "singular": "Location",
+                    "title": "Location"
+                },
+                {
+                    "id": "days_in_snapshot_date",
+                    "plural": "Days in SnapShot Date",
+                    "singular": "Days in SnapShot Date",
+                    "title": "Days in SnapShot Date"
+                },
+                {
+                    "id": "facilityid",
+                    "plural": "FacilityID",
+                    "singular": "FacilityID",
+                    "title": "FacilityID"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}

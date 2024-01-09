@@ -1,0 +1,43 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaLeadIAAaGeneration",
+        "fullname": "localhost/Sample Lead Generation",
+        "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+        "live": false,
+        "title": "Sample Lead Generation"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "61bbba4798f8b514782a6a7e",
+    "script": "./script.js",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "subscription": null,
+    "title": "Blox - Logo on PDF export",
+    "widgets": [
+        "./widgets/61bbba4798f8b514782a6a7f/widget.json",
+        "./widgets/61bbba4798f8b514782a6a80/widget.json",
+        "./widgets/61bbba4798f8b514782a6a81/widget.json",
+        "./widgets/61bbba4798f8b514782a6a82/widget.json"
+    ]
+}

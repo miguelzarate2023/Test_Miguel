@@ -1,0 +1,342 @@
+{
+    "_dataSourcePermission": "edit",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "custom": {
+        "barcolumnchart": {
+            "addTotalOption": "No",
+            "currModalOpened": "None",
+            "customMenuEnabled": false,
+            "isTypeValid": false,
+            "sortBreakByOption": "Default",
+            "sortCategoriesOption": "Default",
+            "totalSeriesName": "Total",
+            "type": "BloX",
+            "updateOnEveryChange": true
+        }
+    },
+    "dashboardid": "61bbba4798f8b514782a6a7e",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaLeadIAAaGeneration",
+        "fullname": "localhost/Sample Lead Generation",
+        "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+        "live": false,
+        "title": "Sample Lead Generation"
+    },
+    "desc": null,
+    "displayMenu": false,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "drilledDashboardDisplay": {
+    },
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                ],
+                "name": "Items"
+            },
+            {
+                "items": [
+                ],
+                "name": "Values"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "61bbba4798f8b514782a6a7f",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "drillTarget": "dummy",
+        "selector": true,
+        "title": false,
+        "triggersDomready": true
+    },
+    "query": {
+        "by": "widget",
+        "dashboard": "61bbba4798f8b514782a6a7e;Blox - Logo on PDF export",
+        "datasource": {
+            "address": "LocalHost",
+            "database": "aSampleIAAaLeadIAAaGeneration",
+            "fullname": "localhost/Sample Lead Generation",
+            "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+            "live": false,
+            "title": "Sample Lead Generation"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "m2mThresholdFlag": 0,
+        "metadata": [
+        ],
+        "widgetType": "BloX"
+    },
+    "realTimeRefreshing": false,
+    "script": "./script.js",
+    "style": {
+        "currentCard": {
+            "actions": [
+            ],
+            "body": [
+                {
+                    "backgroundColor": "#3adcca",
+                    "items": [
+                        {
+                            "columns": [
+                                {
+                                    "items": [
+                                        {
+                                            "altText": "image descriptions",
+                                            "class": "logo",
+                                            "id": "",
+                                            "size": "medium",
+                                            "style": {
+                                                "align-self": "center",
+                                                "flex-grow": 1
+                                            },
+                                            "type": "Image",
+                                            "url": "/plugins/BloX/blox-images/ConditionalCard/green_boto_bg.png"
+                                        }
+                                    ],
+                                    "style": {
+                                        "align-items": "center",
+                                        "flex-basis": "20%",
+                                        "flex-grow": 0,
+                                        "justify-content": "center"
+                                    },
+                                    "type": "Column"
+                                },
+                                {
+                                    "items": [
+                                        {
+                                            "style": {
+                                                "color": "blue",
+                                                "font-size": "24px",
+                                                "font-weight": "bold",
+                                                "margin": "5px",
+                                                "text-align": "center"
+                                            },
+                                            "text": "Logo on PDF export",
+                                            "type": "TextBlock"
+                                        },
+                                        {
+                                            "style": {
+                                                "font-size": "15px",
+                                                "font-weight": "default",
+                                                "margin": "5px",
+                                                "text-align": "center"
+                                            },
+                                            "text": "This Dashboard displays a logo on PDF export only",
+                                            "type": "TextBlock"
+                                        }
+                                    ],
+                                    "style": {
+                                        "flex-grow": 2
+                                    },
+                                    "type": "Column"
+                                },
+                                {
+                                    "items": [
+                                    ],
+                                    "style": {
+                                        "align-items": "stretch",
+                                        "flex-basis": "20%",
+                                        "flex-direction": "row",
+                                        "flex-grow": 0,
+                                        "justify-content": "center"
+                                    },
+                                    "type": "Column"
+                                }
+                            ],
+                            "type": "ColumnSet"
+                        }
+                    ],
+                    "type": "Container"
+                }
+            ],
+            "script": "",
+            "showCarousel": true,
+            "style": "",
+            "title": ""
+        },
+        "currentCardName": "Blox_color_blue",
+        "currentConfig": {
+            "actions": {
+                "actionAlignment": "center",
+                "actionsOrientation": "horizontal",
+                "backgroundColor": "white",
+                "buttonSpacing": 20,
+                "color": "",
+                "maxActions": 5,
+                "showCard": {
+                    "actionMode": "inline",
+                    "inlineTopMargin": 16,
+                    "style": "default"
+                },
+                "spacing": "extraLarge"
+            },
+            "containerStyles": {
+                "default": {
+                    "backgroundColor": "#ffcb05",
+                    "foregroundColors": {
+                        "accent": {
+                            "normal": "#2E89FC"
+                        },
+                        "attention": {
+                            "normal": "#cc3300"
+                        },
+                        "black": {
+                            "normal": "#000000"
+                        },
+                        "default": {
+                            "normal": "#000000"
+                        },
+                        "good": {
+                            "normal": "#54a254"
+                        },
+                        "green": {
+                            "normal": "#54a254"
+                        },
+                        "grey": {
+                            "normal": "#5C6372"
+                        },
+                        "lightGreen": {
+                            "normal": "#3ADCCA"
+                        },
+                        "orange": {
+                            "normal": "#f2B900"
+                        },
+                        "red": {
+                            "normal": "#dd1111"
+                        },
+                        "warning": {
+                            "normal": "#e69500"
+                        },
+                        "white": {
+                            "normal": "#ffffff"
+                        },
+                        "yellow": {
+                            "normal": "#ffcb05"
+                        }
+                    }
+                }
+            },
+            "factSet": {
+                "spacing": 20,
+                "title": {
+                    "color": "default",
+                    "size": "default",
+                    "warp": true,
+                    "weight": "bold"
+                },
+                "value": {
+                    "color": "default",
+                    "size": "default",
+                    "warp": true,
+                    "weight": "default"
+                }
+            },
+            "fontFamily": "Open Sans",
+            "fontSizes": {
+                "default": 14,
+                "extraLarge": 32,
+                "large": 50,
+                "medium": 20,
+                "small": 16
+            },
+            "fontWeights": {
+                "bold": 1000,
+                "default": 500,
+                "light": 100
+            },
+            "height": 65,
+            "imageBaseUrl": "",
+            "imageSet": {
+                "imageSize": "medium",
+                "maxImageHeight": 100
+            },
+            "imageSizes": {
+                "default": 40,
+                "large": 160,
+                "medium": 80,
+                "small": 40
+            },
+            "separator": {
+                "lineColor": "#eeeeee",
+                "lineThickness": 1
+            },
+            "spacing": {
+                "default": 5,
+                "extraLarge": 40,
+                "large": 20,
+                "medium": 60,
+                "padding": 0,
+                "small": 20
+            },
+            "supportsInteractivity": true
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        }
+    },
+    "subtype": "BloX",
+    "title": "",
+    "type": "BloX",
+    "wasRendered": false
+}

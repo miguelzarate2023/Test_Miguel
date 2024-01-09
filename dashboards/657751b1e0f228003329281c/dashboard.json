@@ -1,0 +1,37 @@
+{
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "657751b1e0f228003329281c",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "title": "Blox_image",
+    "widgets": [
+        "./widgets/657751ffe0f228003329281e/widget.json"
+    ]
+}

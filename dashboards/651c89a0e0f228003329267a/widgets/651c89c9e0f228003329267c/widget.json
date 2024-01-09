@@ -1,0 +1,293 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "651c89a0e0f228003329267a",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aFacilities",
+        "fullname": "localhost/Facilities",
+        "id": "localhost_aFacilities",
+        "live": false,
+        "title": "Facilities"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "format": {
+                            "mask": {
+                                "dateAndTime": "MM/dd/y HH:mm",
+                                "days": "shortDate",
+                                "isdefault": true,
+                                "minutes": "HH:mm",
+                                "months": "MM/yyyy",
+                                "quarters": "yyyy Q",
+                                "weeks": "ww yyyy",
+                                "years": "yyyy"
+                            }
+                        },
+                        "hierarchies": [
+                            "calendar",
+                            "calendar - weeks"
+                        ],
+                        "instanceid": "38FC2-D277-50",
+                        "jaql": {
+                            "column": "SnapShot Date",
+                            "datatype": "datetime",
+                            "dim": "[Facilities.SnapShot Date (Calendar)]",
+                            "level": "days",
+                            "merged": true,
+                            "table": "Facilities",
+                            "title": "Days in SnapShot Date"
+                        }
+                    }
+                ],
+                "name": "x-axis"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "colorIndex": 0,
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "F3090-57D4-07",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Amount",
+                            "datatype": "numeric",
+                            "dim": "[Facilities.Amount]",
+                            "table": "Facilities",
+                            "title": "Total Amount"
+                        }
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "break by"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "mask": {
+                                "dateAndTime": "MM/dd/y HH:mm",
+                                "days": "shortDate",
+                                "isdefault": true,
+                                "minutes": "HH:mm",
+                                "months": "MM/yyyy",
+                                "quarters": "yyyy Q",
+                                "weeks": "ww yyyy",
+                                "years": "yyyy"
+                            }
+                        },
+                        "instanceid": "B3F0F-6857-4B",
+                        "jaql": {
+                            "collapsed": true,
+                            "column": "SnapShot Date",
+                            "datasource": {
+                                "address": "LocalHost",
+                                "database": "aFacilities",
+                                "fullname": "localhost/Facilities",
+                                "id": "localhost_aFacilities",
+                                "live": false,
+                                "title": "Facilities"
+                            },
+                            "datatype": "datetime",
+                            "dim": "[Facilities.SnapShot Date (Calendar)]",
+                            "dimension": "[Facilities.SnapShot Date (Calendar)]",
+                            "filter": {
+                                "from": "2021-01-01"
+                            },
+                            "firstday": "mon",
+                            "level": "days",
+                            "locale": "en-us",
+                            "merged": true,
+                            "pv": {
+                                "Visible in View": 1
+                            },
+                            "table": "Facilities",
+                            "title": "Last Year and this Year"
+                        }
+                    }
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "651c89c9e0f228003329267c",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+            "max": null,
+            "min": null
+        },
+        "selector": true,
+        "selectorLocked": false,
+        "triggersDomready": true
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "dataLimits": {
+            "categoriesCapacity": 100000,
+            "seriesCapacity": 50
+        },
+        "legend": {
+            "enabled": true,
+            "position": "bottom"
+        },
+        "lineWidth": {
+            "width": "bold"
+        },
+        "markers": {
+            "enabled": false,
+            "fill": "filled",
+            "size": "small"
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "days_in_snapshot_date",
+                    "plural": "Days in SnapShot Date",
+                    "singular": "Days in SnapShot Date",
+                    "title": "Days in SnapShot Date"
+                },
+                {
+                    "id": "last_year_and_this_year",
+                    "plural": "Last Year and this Year",
+                    "singular": "Last Year and this Year",
+                    "title": "Last Year and this Year"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "navigator": {
+            "enabled": true
+        },
+        "seriesLabels": {
+            "enabled": false,
+            "rotation": 0
+        },
+        "xAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "isIntervalEnabled": false,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "ticks": true,
+            "title": {
+                "enabled": false
+            },
+            "x2Title": {
+                "enabled": false
+            }
+        },
+        "y2Axis": {
+            "enabled": true,
+            "gridLines": false,
+            "inactive": true,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        },
+        "yAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "inactive": false,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        }
+    },
+    "subtype": "line/basic",
+    "title": "",
+    "type": "chart/line"
+}

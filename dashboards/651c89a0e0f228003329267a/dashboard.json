@@ -1,0 +1,61 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aFacilities",
+        "fullname": "localhost/Facilities",
+        "id": "localhost_aFacilities",
+        "live": false,
+        "title": "Facilities"
+    },
+    "desc": "",
+    "filterRelations": [
+    ],
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "651c89a0e0f228003329267a",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "651c89a0e0f228003329267a"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2023-10-03",
+        "timezone": 420,
+        "type": "onUpdate",
+        "tzName": "America/Los_Angeles"
+    },
+    "title": "Facilities",
+    "widgets": [
+        "./widgets/651c89c9e0f228003329267c/widget.json",
+        "./widgets/651c9884e0f228003329269e/widget.json"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "connection": "./connection.json",
+    "database": "SAMPLE_ECOMMERCE",
+    "elasticube": "2bcd1ec0-3e12-4719-87b6-4bdceaff3bf2",
+    "liveQuerySettings": {
+        "autoRefresh": false,
+        "refreshRate": 30000,
+        "resultLimit": 5000,
+        "timeout": 60000
+    },
+    "oid": "f4fd1c0a-d195-4524-b7bd-fd335a1de3e5",
+    "schemaName": "PUBLIC",
+    "tables": [
+        "./241a4afc-0771-4b60-b94b-44539c890021/table.json",
+        "./cc7534b3-1e74-4fdf-aeae-2dbfd4011bc3/table.json",
+        "./cce5435d-f12c-491a-bf7b-fea8058d4744/table.json",
+        "./e8d9e47a-b07b-48c6-a0e0-85d4155b5c88/table.json"
+    ],
+    "type": "live"
+}

@@ -1,0 +1,41 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "COUNTRY",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "COUNTRY",
+            "oid": "cc5e4511-780e-41cf-9740-4a633de60357",
+            "precision": 100,
+            "scale": 0,
+            "size": 100,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COUNTRY_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "COUNTRY_ID",
+            "oid": "3c212c94-81fd-444c-8125-4d4aef11c3c8",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        }
+    ],
+    "dataset": "f4fd1c0a-d195-4524-b7bd-fd335a1de3e5",
+    "hidden": false,
+    "id": "COUNTRY",
+    "isMaterialized": false,
+    "name": "COUNTRY",
+    "oid": "cce5435d-f12c-491a-bf7b-fea8058d4744",
+    "schemaName": "PUBLIC",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

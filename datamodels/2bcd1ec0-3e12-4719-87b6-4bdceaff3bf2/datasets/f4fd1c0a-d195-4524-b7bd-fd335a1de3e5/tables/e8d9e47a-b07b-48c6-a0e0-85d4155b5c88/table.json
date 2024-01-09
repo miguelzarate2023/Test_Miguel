@@ -1,0 +1,41 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "CATEGORY",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CATEGORY",
+            "oid": "52ef476f-db24-4f72-b29c-750cf7612de5",
+            "precision": 100,
+            "scale": 0,
+            "size": 100,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CATEGORY_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CATEGORY_ID",
+            "oid": "8ffc248e-e98c-4d0d-8993-95d098e95bc5",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        }
+    ],
+    "dataset": "f4fd1c0a-d195-4524-b7bd-fd335a1de3e5",
+    "hidden": false,
+    "id": "CATEGORY",
+    "isMaterialized": false,
+    "name": "CATEGORY",
+    "oid": "e8d9e47a-b07b-48c6-a0e0-85d4155b5c88",
+    "schemaName": "PUBLIC",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

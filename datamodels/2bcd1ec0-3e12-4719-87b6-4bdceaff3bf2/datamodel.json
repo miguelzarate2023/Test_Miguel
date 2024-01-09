@@ -1,0 +1,23 @@
+{
+    "buildDestination": {
+        "destination": "live"
+    },
+    "datasets": [
+        "./f4fd1c0a-d195-4524-b7bd-fd335a1de3e5/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": null,
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "2bcd1ec0-3e12-4719-87b6-4bdceaff3bf2",
+    "relationType": "direct",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "title": "Snowflake_ecommerce",
+    "type": "live"
+}

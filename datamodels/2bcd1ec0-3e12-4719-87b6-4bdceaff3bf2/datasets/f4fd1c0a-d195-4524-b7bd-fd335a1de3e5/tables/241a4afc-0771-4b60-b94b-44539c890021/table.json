@@ -1,0 +1,149 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "AGE_RANGE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AGE_RANGE",
+            "oid": "aaf98913-2c8c-478c-8177-e0b669631513",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COST",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "COST",
+            "oid": "bda619dc-a661-4fd2-ba69-a8296474b4d8",
+            "precision": 0,
+            "scale": 0,
+            "size": 1,
+            "type": 40
+        },
+        {
+            "hidden": false,
+            "id": "BRAND_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "BRAND_ID",
+            "oid": "6db8045f-0655-4808-8550-da829f67c78e",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "CATEGORY_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CATEGORY_ID",
+            "oid": "cd5387ce-0a14-4050-942c-fc88f89351b1",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "CONDITION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONDITION",
+            "oid": "52328daf-57be-4468-a3b0-1b9efee1b46c",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COUNTRY_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "COUNTRY_ID",
+            "oid": "286992a4-2f4a-423c-9c4a-4ee5eca9f3ce",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "DATE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DATE",
+            "oid": "d2240e6d-1214-4ee1-afae-07f4223ec7b3",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "GENDER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GENDER",
+            "oid": "62c60f48-5c1b-4ced-9b36-4d4e1139df53",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "QUANTITY",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "QUANTITY",
+            "oid": "0e4889d1-1299-4a3d-bf3b-f66128643fa4",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "REVENUE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "REVENUE",
+            "oid": "859113e1-5b7b-4279-8972-9221dfd65822",
+            "precision": 0,
+            "scale": 0,
+            "size": 1,
+            "type": 40
+        },
+        {
+            "hidden": false,
+            "id": "VISIT_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "VISIT_ID",
+            "oid": "427b5d2a-52e5-4b60-ab7d-1d705269b781",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        }
+    ],
+    "dataset": "f4fd1c0a-d195-4524-b7bd-fd335a1de3e5",
+    "hidden": false,
+    "id": "COMMERCE",
+    "isMaterialized": false,
+    "name": "COMMERCE",
+    "oid": "241a4afc-0771-4b60-b94b-44539c890021",
+    "schemaName": "PUBLIC",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

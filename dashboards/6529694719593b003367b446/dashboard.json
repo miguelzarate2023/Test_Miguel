@@ -1,0 +1,38 @@
+{
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "6529694719593b003367b446",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "title": "Blox_Widget_Max_Date",
+    "widgets": [
+        "./widgets/65296cc519593b003367b448/widget.json",
+        "./widgets/652971a119593b003367b472/widget.json"
+    ]
+}

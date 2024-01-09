@@ -1,0 +1,338 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "6584e31ce0f2280033292916",
+    "datasource": {
+        "fullname": "live:Snowflake_ecommerce",
+        "id": "live:Snowflake_ecommerce",
+        "live": true,
+        "title": "Snowflake_ecommerce"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[BRAND.BRAND_ID]",
+                            "index": 0
+                        },
+                        "instanceid": "CB212-3EDF-BE",
+                        "jaql": {
+                            "column": "BRAND_ID",
+                            "datatype": "numeric",
+                            "dim": "[BRAND.BRAND_ID]",
+                            "merged": true,
+                            "table": "BRAND",
+                            "title": "BRAND_ID"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Commerce.Cost]_sum",
+                            "index": 1
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "07583-2B53-FA",
+                        "jaql": {
+                            "context": {
+                                "[8B8C5-09F]": {
+                                    "column": "Cost",
+                                    "datatype": "numeric",
+                                    "dim": "[Commerce.Cost]",
+                                    "table": "Commerce",
+                                    "title": "Cost"
+                                }
+                            },
+                            "datatype": "numeric",
+                            "formula": "RANK(sum([8B8C5-09F]))",
+                            "sort": "asc",
+                            "sortDetails": {
+                                "dir": "asc",
+                                "field": 1,
+                                "initialized": true,
+                                "isLastApplied": true,
+                                "sortingLastDimension": true
+                            },
+                            "title": "RANK(sum([Cost]))",
+                            "type": "measure"
+                        },
+                        "panel": "measures"
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                    {
+                        "instanceid": "2E2FD-263F-07",
+                        "jaql": {
+                            "collapsed": true,
+                            "context": {
+                                "[8B8C5-09F]": {
+                                    "column": "Cost",
+                                    "datatype": "numeric",
+                                    "dim": "[Commerce.Cost]",
+                                    "table": "Commerce",
+                                    "title": "Cost"
+                                }
+                            },
+                            "datasource": {
+                                "fullname": "live:Snowflake_ecommerce",
+                                "id": "live:Snowflake_ecommerce",
+                                "live": true,
+                                "title": "Snowflake_ecommerce"
+                            },
+                            "datatype": "numeric",
+                            "dimension": "[Commerce.Brand ID]",
+                            "filter": {
+                                "from": 1,
+                                "to": 6
+                            },
+                            "firstday": "mon",
+                            "formula": "RANK(sum([8B8C5-09F]))",
+                            "locale": "en-gb",
+                            "sort": null,
+                            "title": "CustomBloXFilter",
+                            "type": "measure"
+                        },
+                        "panel": "scope",
+                        "title": "CustomBloXFilter"
+                    }
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "6584e31ce0f2280033292918",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "query": {
+        "datasource": {
+            "fullname": "live:Snowflake_ecommerce",
+            "id": "live:Snowflake_ecommerce",
+            "live": true,
+            "title": "Snowflake_ecommerce"
+        },
+        "format": "pivot",
+        "grandTotals": {
+            "title": "Grand Total"
+        },
+        "m2mThresholdFlag": 0,
+        "metadata": [
+            {
+                "field": {
+                    "id": "[BRAND.BRAND_ID]",
+                    "index": 0
+                },
+                "handlers": [
+                ],
+                "instanceid": "CB212-3EDF-BE",
+                "jaql": {
+                    "column": "BRAND_ID",
+                    "datatype": "numeric",
+                    "dim": "[BRAND.BRAND_ID]",
+                    "merged": true,
+                    "table": "BRAND",
+                    "title": "BRAND_ID"
+                },
+                "panel": "rows"
+            },
+            {
+                "field": {
+                    "id": "[Commerce.Cost]_sum",
+                    "index": 1
+                },
+                "format": {
+                    "color": {
+                        "color": "transparent",
+                        "type": "color"
+                    },
+                    "mask": {
+                        "b": true,
+                        "decimals": "auto",
+                        "isdefault": true,
+                        "separated": true,
+                        "t": true,
+                        "type": "number"
+                    }
+                },
+                "handlers": [
+                    {
+                    },
+                    {
+                    }
+                ],
+                "instanceid": "07583-2B53-FA",
+                "jaql": {
+                    "context": {
+                        "[8B8C5-09F]": {
+                            "column": "Cost",
+                            "datatype": "numeric",
+                            "dim": "[Commerce.Cost]",
+                            "table": "Commerce",
+                            "title": "Cost"
+                        }
+                    },
+                    "datatype": "numeric",
+                    "formula": "RANK(sum([8B8C5-09F]))",
+                    "sort": "asc",
+                    "sortDetails": {
+                        "dir": "asc",
+                        "field": 1,
+                        "initialized": true,
+                        "isLastApplied": true,
+                        "sortingLastDimension": true
+                    },
+                    "title": "RANK(sum([Cost]))",
+                    "type": "measure"
+                },
+                "panel": "measures"
+            },
+            {
+                "handlers": [
+                ],
+                "instanceid": "2E2FD-263F-07",
+                "jaql": {
+                    "collapsed": true,
+                    "context": {
+                        "[8B8C5-09F]": {
+                            "column": "Cost",
+                            "datatype": "numeric",
+                            "dim": "[Commerce.Cost]",
+                            "table": "Commerce",
+                            "title": "Cost"
+                        }
+                    },
+                    "datasource": {
+                        "fullname": "live:Snowflake_ecommerce",
+                        "id": "live:Snowflake_ecommerce",
+                        "live": true,
+                        "title": "Snowflake_ecommerce"
+                    },
+                    "datatype": "numeric",
+                    "dimension": "[Commerce.Brand ID]",
+                    "filter": {
+                        "from": 1,
+                        "to": 6
+                    },
+                    "firstday": "mon",
+                    "formula": "RANK(sum([8B8C5-09F]))",
+                    "locale": "en-gb",
+                    "title": "CustomBloXFilter",
+                    "type": "measure"
+                },
+                "panel": "scope",
+                "title": "CustomBloXFilter"
+            }
+        ]
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "brand_id",
+                    "plural": "BRAND_ID",
+                    "singular": "BRAND_ID",
+                    "title": "BRAND_ID"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}

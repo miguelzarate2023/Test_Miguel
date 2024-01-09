@@ -1,0 +1,71 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 118.056,
+                                        "maxHeight": 945,
+                                        "maxWidth": 2048,
+                                        "minHeight": 68,
+                                        "minWidth": 128,
+                                        "widgetid": "6584e31ce0f2280033292917"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1652.2,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "autoHeight": "18px",
+                                        "defaultWidth": 512,
+                                        "height": "18px",
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 128,
+                                        "minWidth": 128,
+                                        "widgetid": "6584e31ce0f2280033292918"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1652.2,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    }
+                ],
+                "index": 0,
+                "pxlWidth": 1652.2,
+                "width": 100
+            }
+        ],
+        "container": {
+            "sizzle1703624712951": {
+                "undefined": {
+                    "parentNode": [
+                        24.547992047876846,
+                        17,
+                        true
+                    ]
+                }
+            }
+        },
+        "instanceid": "4D482-BDCC-50",
+        "type": "columnar"
+    },
+    "previewLayout": [
+    ]
+}

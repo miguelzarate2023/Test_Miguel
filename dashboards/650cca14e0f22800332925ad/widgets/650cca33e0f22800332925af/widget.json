@@ -1,0 +1,276 @@
+{
+    "_dataSourcePermission": "edit",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "650cca14e0f22800332925ad",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Commerce.Date (Calendar)]_years",
+                            "index": 0
+                        },
+                        "format": {
+                            "mask": {
+                                "dateAndTime": "MM/dd/y HH:mm",
+                                "days": "shortDate",
+                                "isdefault": true,
+                                "minutes": "HH:mm",
+                                "months": "MM/yyyy",
+                                "quarters": "yyyy Q",
+                                "weeks": "ww yyyy",
+                                "years": "yyyy"
+                            }
+                        },
+                        "hierarchies": [
+                            "calendar",
+                            "calendar - weeks"
+                        ],
+                        "instanceid": "7EBA0-BF26-FC",
+                        "jaql": {
+                            "column": "Date",
+                            "datatype": "datetime",
+                            "dim": "[Commerce.Date (Calendar)]",
+                            "level": "days",
+                            "merged": true,
+                            "table": "Commerce",
+                            "title": "Days in Date"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Commerce.Cost]_sum",
+                            "index": 1
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "1C87E-62D3-CD",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Cost",
+                            "datatype": "numeric",
+                            "dim": "[Commerce.Cost]",
+                            "table": "Commerce",
+                            "title": "Total Cost"
+                        },
+                        "panel": "measures"
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "650cca33e0f22800332925af",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "query": {
+        "datasource": {
+            "address": "LocalHost",
+            "database": "aSampleIAAaECommerce",
+            "fullname": "localhost/Sample ECommerce",
+            "id": "localhost_aSampleIAAaECommerce",
+            "live": false,
+            "title": "Sample ECommerce"
+        },
+        "format": "pivot",
+        "grandTotals": {
+            "title": "Grand Total"
+        },
+        "m2mThresholdFlag": 0,
+        "metadata": [
+            {
+                "field": {
+                    "id": "[Commerce.Date (Calendar)]_years",
+                    "index": 0
+                },
+                "format": {
+                    "mask": {
+                        "dateAndTime": "MM/dd/y HH:mm",
+                        "days": "shortDate",
+                        "isdefault": true,
+                        "minutes": "HH:mm",
+                        "months": "MM/yyyy",
+                        "quarters": "yyyy Q",
+                        "weeks": "ww yyyy",
+                        "years": "yyyy"
+                    }
+                },
+                "handlers": [
+                    {
+                    }
+                ],
+                "hierarchies": [
+                    "calendar",
+                    "calendar - weeks"
+                ],
+                "instanceid": "7EBA0-BF26-FC",
+                "jaql": {
+                    "column": "Date",
+                    "datatype": "datetime",
+                    "dim": "[Commerce.Date (Calendar)]",
+                    "level": "days",
+                    "merged": true,
+                    "table": "Commerce",
+                    "title": "Days in Date"
+                },
+                "panel": "rows"
+            },
+            {
+                "field": {
+                    "id": "[Commerce.Cost]_sum",
+                    "index": 1
+                },
+                "format": {
+                    "color": {
+                        "color": "transparent",
+                        "type": "color"
+                    },
+                    "mask": {
+                        "b": true,
+                        "decimals": "auto",
+                        "isdefault": true,
+                        "separated": true,
+                        "t": true,
+                        "type": "number"
+                    }
+                },
+                "handlers": [
+                    {
+                    },
+                    {
+                    }
+                ],
+                "instanceid": "1C87E-62D3-CD",
+                "jaql": {
+                    "agg": "sum",
+                    "column": "Cost",
+                    "datatype": "numeric",
+                    "dim": "[Commerce.Cost]",
+                    "table": "Commerce",
+                    "title": "Total Cost"
+                },
+                "panel": "measures"
+            }
+        ]
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "years_in_date",
+                    "plural": "Years in Date",
+                    "singular": "Years in Date",
+                    "title": "Years in Date"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}

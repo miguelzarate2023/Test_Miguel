@@ -1,0 +1,56 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Live Employee",
+        "id": "live:Live Employee",
+        "live": true,
+        "title": "Live Employee"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "65764e96e0f2280033292816",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "65764e96e0f2280033292816"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": false,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "0 0 0 * * *",
+        "startAt": "2023-12-11",
+        "timezone": -660,
+        "type": "daily",
+        "tzName": "Australia/Sydney"
+    },
+    "title": "RM_Test_Live_ Employee ",
+    "widgets": [
+        "./widgets/65764e9be0f2280033292818/widget.json"
+    ]
+}

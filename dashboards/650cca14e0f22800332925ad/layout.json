@@ -1,0 +1,82 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "autoHeight": "736px",
+                                        "defaultWidth": 512,
+                                        "height": "736px",
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 128,
+                                        "minWidth": 128,
+                                        "widgetid": "650cca33e0f22800332925af"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 885,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    }
+                ],
+                "index": 0,
+                "pxlWidth": 885,
+                "width": 100
+            }
+        ],
+        "container": {
+        },
+        "instanceid": "8602C-58F0-B1",
+        "type": "columnar"
+    },
+    "previewLayout": [
+        {
+            "elasticubeBuilt": true,
+            "elasticubeName": true,
+            "filters": true,
+            "format": "A4",
+            "headerSize": "compact",
+            "layout": "asis",
+            "logo": false,
+            "openPath": "PDF Settings",
+            "orientation": "portrait",
+            "pageNumbers": true,
+            "pages": [
+                {
+                    "columns": [
+                        {
+                            "cells": [
+                                {
+                                    "subcells": [
+                                        {
+                                            "elements": [
+                                                {
+                                                    "height": 778,
+                                                    "maxHeight": 1024,
+                                                    "minHeight": 128,
+                                                    "widgetid": "650cca33e0f22800332925af"
+                                                }
+                                            ],
+                                            "width": 100
+                                        }
+                                    ]
+                                }
+                            ],
+                            "width": 100
+                        }
+                    ]
+                }
+            ],
+            "savedByButton": "Export",
+            "title": true,
+            "type": "previewLayout"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Snowflake_ecommerce",
+        "id": "live:Snowflake_ecommerce",
+        "live": true,
+        "title": "Snowflake_ecommerce"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "6584e31ce0f2280033292916",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "title": "Dynamic Blox Filter - Live",
+    "widgets": [
+        "./widgets/6584e31ce0f2280033292917/widget.json",
+        "./widgets/6584e31ce0f2280033292918/widget.json"
+    ]
+}

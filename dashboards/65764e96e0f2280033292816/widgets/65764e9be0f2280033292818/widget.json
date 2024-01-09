@@ -1,0 +1,149 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "65764e96e0f2280033292816",
+    "datasource": {
+        "fullname": "live:Live Employee",
+        "id": "live:Live Employee",
+        "live": true,
+        "title": "Live Employee"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[accumulation.column1 (Calendar)]_years",
+                            "index": 0
+                        },
+                        "format": {
+                            "mask": {
+                                "dateAndTime": "MM/dd/y HH:mm",
+                                "days": "shortDate",
+                                "isdefault": true,
+                                "minutes": "HH:mm",
+                                "months": "MM/yyyy",
+                                "quarters": "yyyy Q",
+                                "weeks": "ww yyyy",
+                                "years": "yyyy"
+                            }
+                        },
+                        "instanceid": "5750B-28EC-2F",
+                        "jaql": {
+                            "column": "column1",
+                            "datatype": "datetime",
+                            "dim": "[accumulation.column1 (Calendar)]",
+                            "level": "years",
+                            "merged": true,
+                            "table": "accumulation",
+                            "title": "Years in column1"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "65764e9be0f2280033292818",
+    "options": {
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "query": {
+        "datasource": {
+            "fullname": "live:Live Employee",
+            "id": "live:Live Employee",
+            "live": true,
+            "title": "Live Employee"
+        },
+        "format": "pivot",
+        "grandTotals": {
+            "title": "Grand Total"
+        },
+        "m2mThresholdFlag": 0,
+        "metadata": [
+            {
+                "field": {
+                    "id": "[accumulation.column1 (Calendar)]_years",
+                    "index": 0
+                },
+                "format": {
+                    "mask": {
+                        "dateAndTime": "MM/dd/y HH:mm",
+                        "days": "shortDate",
+                        "isdefault": true,
+                        "minutes": "HH:mm",
+                        "months": "MM/yyyy",
+                        "quarters": "yyyy Q",
+                        "weeks": "ww yyyy",
+                        "years": "yyyy"
+                    }
+                },
+                "handlers": [
+                    {
+                    }
+                ],
+                "instanceid": "5750B-28EC-2F",
+                "jaql": {
+                    "column": "column1",
+                    "datatype": "datetime",
+                    "dim": "[accumulation.column1 (Calendar)]",
+                    "level": "years",
+                    "merged": true,
+                    "table": "accumulation",
+                    "title": "Years in column1"
+                },
+                "panel": "rows"
+            }
+        ]
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}

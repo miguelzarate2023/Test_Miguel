@@ -1,0 +1,59 @@
+{
+    "_dataSourcePermission": "edit",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "61bbba4798f8b514782a6a7e",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaLeadIAAaGeneration",
+        "fullname": "localhost/Sample Lead Generation",
+        "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+        "lastBuildTime": "2017-10-20T01:31:35",
+        "live": false,
+        "title": "Sample Lead Generation"
+    },
+    "desc": null,
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+        ]
+    },
+    "oid": "61bbba4798f8b514782a6a80",
+    "options": {
+        "dashboardFiltersMode": "filter",
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "hideFromWidgetList": true,
+        "selector": false,
+        "supportsHierarchies": false,
+        "toolbarButton": {
+            "css": "add-rich-text",
+            "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "triggersDomready": true
+    },
+    "style": {
+        "content": {
+            "bgColor": "#FFFFFF",
+            "html": "<font size=\"2\">Reach out to <font color=\"#07e5ff\"><a href=\"mailto:poorna.thejasvi@sisense.com\">poorna.thejasvi@sisense.com</a></font>&nbsp;with questions.</font>",
+            "textAlign": "center",
+            "vAlign": "valign-middle"
+        }
+    },
+    "subtype": "richtexteditor",
+    "title": "RICHTEXT_MAIN.TITLE",
+    "type": "richtexteditor",
+    "wasRendered": false
+}
