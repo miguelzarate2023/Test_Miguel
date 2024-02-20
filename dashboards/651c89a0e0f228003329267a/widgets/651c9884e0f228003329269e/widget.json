@@ -359,7 +359,7 @@
             },
             {
                 "disabled": false,
-                "instanceid": "E7781-6D6C-89",
+                "instanceid": "AF5DC-7AA0-35",
                 "isCascading": true,
                 "jaql": {
                     "collapsed": true,
@@ -390,7 +390,8 @@
                     "table": "Facilities",
                     "title": "Months in SnapShot Date"
                 },
-                "panel": "scope"
+                "panel": "scope",
+                "rootInstanceId": "E7781-6D6C-89"
             }
         ]
     },

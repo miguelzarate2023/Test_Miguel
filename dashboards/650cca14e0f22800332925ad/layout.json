@@ -8,9 +8,9 @@
                             {
                                 "elements": [
                                     {
-                                        "autoHeight": "736px",
+                                        "autoHeight": "658px",
                                         "defaultWidth": 512,
-                                        "height": "736px",
+                                        "height": "658px",
                                         "maxHeight": 2048,
                                         "maxWidth": 2048,
                                         "minHeight": 128,
@@ -19,7 +19,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 885,
+                                "pxlWidth": 2959,
                                 "stretchable": false,
                                 "width": 100
                             }
@@ -27,7 +27,7 @@
                     }
                 ],
                 "index": 0,
-                "pxlWidth": 885,
+                "pxlWidth": 2959,
                 "width": 100
             }
         ],

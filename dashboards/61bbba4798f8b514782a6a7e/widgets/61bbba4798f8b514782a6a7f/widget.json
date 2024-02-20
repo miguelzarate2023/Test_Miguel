@@ -103,8 +103,6 @@
         "triggersDomready": true
     },
     "query": {
-        "by": "widget",
-        "dashboard": "61bbba4798f8b514782a6a7e;Blox - Logo on PDF export",
         "datasource": {
             "address": "LocalHost",
             "database": "aSampleIAAaLeadIAAaGeneration",
@@ -117,8 +115,7 @@
         "isMaskedResult": true,
         "m2mThresholdFlag": 0,
         "metadata": [
-        ],
-        "widgetType": "BloX"
+        ]
     },
     "realTimeRefreshing": false,
     "script": "./script.js",

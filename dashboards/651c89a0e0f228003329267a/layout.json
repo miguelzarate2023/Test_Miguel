@@ -18,7 +18,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 885,
+                                "pxlWidth": 869,
                                 "stretchable": false,
                                 "width": 100
                             }
@@ -29,9 +29,9 @@
                             {
                                 "elements": [
                                     {
-                                        "autoHeight": "82px",
+                                        "autoHeight": "80px",
                                         "defaultWidth": 512,
-                                        "height": "82px",
+                                        "height": "80px",
                                         "maxHeight": 2048,
                                         "maxWidth": 2048,
                                         "minHeight": 128,
@@ -40,7 +40,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 885,
+                                "pxlWidth": 869,
                                 "stretchable": false,
                                 "width": 100
                             }
@@ -48,7 +48,7 @@
                     }
                 ],
                 "index": 0,
-                "pxlWidth": 885,
+                "pxlWidth": 869,
                 "width": 100
             }
         ],
